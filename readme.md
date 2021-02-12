@@ -11,3 +11,7 @@ Début : **06h57**
 - Ajout navbar Bootstrap
 - Ajout de Css pour navbar (mobile 1st)
 - Ajout entête
+- upload photo
+- ajustement css photo
+- écriture du formulaire de matchmaking
+- css => *flex et column + mediaquery*

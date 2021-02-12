@@ -26,3 +26,41 @@ header nav {
     max-width: 500px;
     border-radius: 5px;
 }
+
+/****************************************************/
+/***************** FORMULAIRE **************************/
+div .form-header {
+    background-color: rgba(133, 134, 109, 0.19);
+    border-radius: 2px;
+}
+
+.title-form { 
+    border: rgba(127, 133, 75, 0.281) solid 1px;
+    border-radius: 2px;
+    background-color: rgba(127, 133, 75, 0.158);
+    padding: 5px;
+  }
+
+
+  .title-form-info {
+      font-weight: bold;
+      color: grey; ;
+      margin-top: 25px;
+  }  
+
+div .button {
+    border: 1px rgba(0, 0, 255, 0.76) solid;
+    border-radius: 5px;
+    color: rgba(0, 0, 255, 0.76);
+    padding: 10px;
+}
+
+
+.form-flex {
+    height: 150px;
+}
+@media only screen and (max-width: 600px) {
+    .form-flex {
+      min-height: 400px;
+    }
+  }
