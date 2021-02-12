@@ -19,3 +19,9 @@ Début : **06h57**
 - pointage des éléments jquery
 - style css de l'accordéon
 - cacher les éléments de l'accordéon
+- ajout js et classes css du toggle pour dropper les infos de l'accordéon
+- ajout du switch hide/show qui affiche l'accordéon après avoir valider
+
+*prévoir l'obligation d'insérer valeur dans les input du formulaire*
+
+-

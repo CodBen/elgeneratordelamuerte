@@ -108,3 +108,12 @@ div .button {
     transition: 0.5s;
     overflow-y: auto;
 }
+
+/*--------> ACTIVE JS <---------*/
+.accordion .team.active .label::before {
+    content : '-';
+}
+.accordion .team.active .content {
+    height: 150px;
+    padding: 10px;
+}
