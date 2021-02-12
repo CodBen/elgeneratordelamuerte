@@ -24,4 +24,6 @@ Début : **06h57**
 
 *prévoir l'obligation d'insérer valeur dans les input du formulaire*
 
--
+- ajout message d'erreur keyup si les inputs sont vide => formulaire bloqué
+- ajout conditions de possibilité d'ouverture du bouton
+- message d'erreur disparait si les conditions sont remplies, le bouton lui s'enable.
