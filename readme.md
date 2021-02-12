@@ -9,5 +9,5 @@ Début : **06h57**
 - Ajout JQUERY
 - Link js et css
 - Ajout navbar Bootstrap
-- Ajout de Css pour le mobile first
-- 
+- Ajout de Css pour navbar (mobile 1st)
+- Ajout entête
