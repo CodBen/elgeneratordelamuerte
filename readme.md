@@ -8,3 +8,4 @@ Début : **06h57**
 - Récupération de la base index.html
 - Ajout JQUERY
 - Link js et css
+- Ajout navbar Bootstrap
