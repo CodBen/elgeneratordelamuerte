@@ -15,3 +15,7 @@ Début : **06h57**
 - ajustement css photo
 - écriture du formulaire de matchmaking
 - css => *flex et column + mediaquery*
+- écriture de l'accordéon
+- pointage des éléments jquery
+- style css de l'accordéon
+- cacher les éléments de l'accordéon

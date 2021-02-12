@@ -64,3 +64,47 @@ div .button {
       min-height: 400px;
     }
   }
+
+  /****************************************************/
+/***************** ACCORDION / RESULTAT **************************/
+
+.team .label {
+    color: blue;
+}
+
+.accordion {
+    max-width: 800px;
+}
+
+.accordion .team {
+    position: relative;
+    margin : 10px 20px;
+
+}
+
+.accordion .team .label {
+    position: relative;
+    padding: 10px;
+    background-color: rgba(0, 0, 139, 0.158);
+    cursor: pointer;
+}
+
+.accordion .team .label::before {
+    content : '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em ;
+}
+
+
+
+.accordion .team .content {
+
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
