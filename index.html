@@ -50,6 +50,36 @@
 <hr class="container">
 <!-- ENTÊTE -->
 
+<!-- APPARITION DU FORMULAIRE DE SAISIE  -->
+
+<div id="form">
+    <div class="container title-form text-center">Formulaire de génération d'équipe</div>
+    <div class="container border">
+        <p class="container title-form-info">Remplissez le formulaire suivant :</p>
+        <div class="container">
+            <div class="container d-flex flex-column form-flex flex-wrap">
+                <div class="col-md-4">
+                    <label>Joueur 1 * :</label>
+                    <input type="text" id="player1" class="form-control" required> </input>
+                </div>
+                <div class="col-md-4">
+                    <label>Joueur 2 * :</label>
+                    <input type="text" id="player2" class="form-control" required> </input>
+                </div>
+                <div class="col-md-4">
+                    <label>Joueur 3 * : </label>
+                    <input type="text" id="player3" class="form-control" required> </input>
+                </div>
+                <div class="col-md-4">
+                    <label>Joueur 4 * :</label>
+                    <input type="text" id="player4" class="form-control" required> </input>
+                </div>
+            </div>
+            <button type="submit" id="submit" class="container btn btn-success mb-5 submit" disabled onclick="getData()">Valider</button>
+        </div>
+    </div>
+</div>
+
 
 <!-- Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
