@@ -27,3 +27,19 @@ Début : **06h57**
 - ajout message d'erreur keyup si les inputs sont vide => formulaire bloqué
 - ajout conditions de possibilité d'ouverture du bouton
 - message d'erreur disparait si les conditions sont remplies, le bouton lui s'enable.
+
+- Choix de l'option : **génération aléatoire des équipes**
+
+*local storage => array => math.random ?* => catastrophe
+*Stocker directement dans un tableau ? + do while et math.random ?* => catastrophe
+
+
+====> fonction qui récupère les valeurs AU CLICK, création de tableau + d'un tableau de valeur dont on retire l'index au fur et à mesure <====== OK
+
+- création d'un tableau contenant 4 index et un tableau vide
+- récupération des valeurs sélectionnés après le click
+- génération d'un chiffre random + retrait de l'index du tableau pour éviter de tomber encore dessus.
+- test
+__OK__ ! 
+
+*merci à vous !*
